@@ -1,5 +1,7 @@
-"ABC" Hardware Co has hired you to write a program for its Accounts Receivable dept.
+# DATA Strucutre Project 
+## Reading from an input file.
 
+"ABC" Hardware Co has hired you to write a program for its Accounts Receivable dept.
 
 Two types of input data:
 
@@ -39,16 +41,16 @@ due (balance after transactions are performed).
 
 Output should look something like...
 
-CUSTOMER NAME   CUSTOMER NUMBER
+# CUSTOMER NAME   CUSTOMER NUMBER
 
-                    PREVIOUS BALANCE  $XXX.XX
-
-TRANSACTION #   ITEM ORDERED    $ ORDER AMOUNT
-TRANSACTION #   ITEM ORDERED    $ ORDER AMOUNT
-TRANSACTION #   ITEM ORDERED    $ ORDER AMOUNT
-TRANSACTION #   ITEM ORDERED    $ ORDER AMOUNT
-
-                    BALANCE DUE       $XXX.XX
+                          
+|               |               | PREVIOUS BALANCE  $XXX.XX  |
+| ------------- |:-------------:| --------------:|
+| TRANSACTION # | ITEM ORDERED  | $ ORDER AMOUNT |
+| TRANSACTION # | ITEM ORDERED  | $ ORDER AMOUNT |
+| TRANSACTION # | ITEM ORDERED  | $ ORDER AMOUNT |
+|  TRANSACTION #| ITEM ORDERED  | $ ORDER AMOUNT |
+|               |               | BALANCE DUE $XXX.XX          |
 
 Don't forget, payments reduce the balance and orders increase it. You are to create
 your own data using at least 7 customers with an average of 5 transactions each.
