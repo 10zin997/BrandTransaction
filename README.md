@@ -1,4 +1,4 @@
-# DATA Strucutre Project 
+# DATA Structure Project 1
 ## Reading from an input file.
 
 "ABC" Hardware Co has hired you to write a program for its Accounts Receivable dept.
